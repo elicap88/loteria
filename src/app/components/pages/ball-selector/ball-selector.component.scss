@@ -1,0 +1,74 @@
+.main {
+  background-color: rgb(204, 204, 204);
+  height: 100vh;
+
+  .color {
+    background-color: red;
+  }
+
+  .color:focus {
+    background-color: transparent !important;
+  }
+
+  .color2 {
+    background-color: beige;
+  }
+  .color3 {
+    background-color: green;
+  }
+  .color4 {
+    background-color: pink;
+  }
+  .color5 {
+    background-color: yellow;
+  }
+  .color6 {
+    background-color: grey;
+  }
+
+  .title {
+    padding: 20px;
+    font-weight: bold;
+    p {
+      margin: 0;
+    }
+  }
+
+  .options {
+    text-align: center;
+  }
+  .mat-button-toggle-group-appearance-standard {
+    border-radius: 4px;
+    border-color: transparent;
+
+    .mat-button-toggle {
+      margin: 0 2px 0 2px;
+      border-radius: 50px;
+      width: 40px;
+      height: 40px;
+    }
+    .mat-button-toggle:active {
+      background-color: transparent !important;
+    }
+  }
+
+  .clear {
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .bet {
+    span {
+      background-color: #e9ecef;
+      position: relative;
+      left: 20px;
+    }
+    input {
+      padding: 5px 10px 5px 10px;
+      border-color: transparent;
+      border-radius: 5px;
+      height: 30px;
+    }
+  }
+}

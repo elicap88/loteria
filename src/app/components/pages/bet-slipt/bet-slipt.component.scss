@@ -1,0 +1,62 @@
+.main {
+  background-color: rgb(204, 204, 204);
+  text-align: center;
+  height: 100vh;
+
+  .title {
+    padding: 20px;
+    font-weight: bold;
+    p {
+      margin: 0;
+    }
+  }
+  .color {
+    background-color: red;
+    font-weight: bold;
+  }
+  \ .color2 {
+    background-color: beige;
+    font-weight: bold;
+  }
+  .color3 {
+    background-color: green;
+    font-weight: bold;
+  }
+  .color4 {
+    background-color: pink;
+    font-weight: bold;
+  }
+  .color5 {
+    background-color: yellow;
+    font-weight: bold;
+  }
+  .color6 {
+    background-color: grey;
+    font-weight: bold;
+  }
+
+  .mat-button-toggle-group-appearance-standard {
+    border-radius: 4px;
+    border-color: transparent;
+
+    .mat-button-toggle {
+      margin: 0 2px 0 2px;
+      border-radius: 50px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 50%;
+    margin: auto;
+  }
+
+  .mybuttom {
+    width: 50%;
+  }
+}
