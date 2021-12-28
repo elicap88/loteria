@@ -21,7 +21,6 @@ export class BallSelectorComponent implements OnInit {
   ngOnInit(): void {
     //Recorre el valor que devuelve el servicio desde el componente hijo
     this.valorDevuelto.forEach(element => {
-      console.log(element,'alonzo')
       this.valorDevuelto2= element
       this.verBalls = false
     })
@@ -38,7 +37,9 @@ export class BallSelectorComponent implements OnInit {
     this.selectedVal = val;
     this.emitirValor()
   }
-
+/**
+ * Emitir el valor al otro componente
+ */
   onPropagar() {
     this.propagar.emit(this.selectedVal);
   }
@@ -51,6 +52,12 @@ export class BallSelectorComponent implements OnInit {
     this.lotteryService.enviar(this.selectedVal);
   }
 
+  /**
+   * Metodo que se encarga de reiniciar 
+   * variable para validar en la vista que se vea
+   * los balls
+   * @returns 
+   */
   try() {
     return this.verBalls = true;
   }
